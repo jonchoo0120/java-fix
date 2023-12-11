@@ -1,0 +1,15 @@
+D01
+Matlus
+018-1234567
+11/12/2023 05:10:38 pm
+45.0
+Beef Chop
+1
+20.0
+French Fried
+1
+10.0
+Goat Chop
+1
+15.0
+
