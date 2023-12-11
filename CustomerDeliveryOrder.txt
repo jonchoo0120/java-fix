@@ -98,3 +98,68 @@ French Fried
 1
 10.0
 
+J08
+Matlus
+018-1234567
+11/12/2023 07:22:52 PM
+123ae
+12.0
+Potato
+1
+5.0
+Fish and Chip
+1
+7.0
+
+J09
+Matlus
+018-1234567
+11/12/2023 07:23:45 PM
+sdf3
+17.0
+French Fried
+1
+10.0
+Fish and Chip
+1
+7.0
+
+J10
+Matlus
+018-1234567
+11/12/2023 07:33:18 PM
+13asd
+22.0
+Goat Chop
+1
+15.0
+Fish and Chip
+1
+7.0
+
+J11
+Matlus
+018-1234567
+11/12/2023 07:35:11 PM
+asd12
+27.0
+Potato
+1
+5.0
+Goat Chop
+1
+15.0
+Fish and Chip
+1
+7.0
+
+J12
+Matlus
+018-1234567
+11/12/2023 07:37:32 PM
+123asd
+10.0
+French Fried
+1
+10.0
+

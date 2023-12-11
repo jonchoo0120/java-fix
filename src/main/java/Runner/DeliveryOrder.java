@@ -124,7 +124,7 @@ public class DeliveryOrder{
     //array
      public static ArrayList loadorders(){
         orderList = new ArrayList<>();
-        String ordersTxt = "C:\\Users\\User\\Documents\\NetBeansProjects\\JavaAssignmentFinal\\src\\main\\java\\Database\\DeliveryOrder.txt";
+        String ordersTxt = "C:\\Users\\PC\\Downloads\\Java-Final-master\\src\\main\\java\\Database\\DeliveryOrder.txt";
         try (BufferedReader reader = new BufferedReader(new FileReader(ordersTxt))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -149,7 +149,7 @@ public class DeliveryOrder{
      }
      
      public static void saveToFile(ArrayList<DeliveryOrder> orderList) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("src\\Database\\DeliveryOrder.txt"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\PC\\Downloads\\Java-Final-master\\src\\main\\java\\Database\\DeliveryOrder.txt"))) {
             for (DeliveryOrder orderLoad : orderList) {
                 String line = orderLoad.getOrderID() + ", " + orderLoad.getAddress() + ", " + orderLoad.getName() + ", " + orderLoad.getPhoneNum() + ", " + orderLoad.getStatus() + ", " + orderLoad.getRunnerID() + ", " + orderLoad.getDate() + ", " + orderLoad.getEarnings();
                 writer.write(line);
@@ -355,7 +355,7 @@ public class DeliveryOrder{
         
     public static int getTotalOrders(){
         int count = 0;
-        String ordersTxt = "src\\Database\\DeliveryOrder.txt";
+        String ordersTxt = "C:\\Users\\PC\\Downloads\\Java-Final-master\\src\\main\\java\\Database\\DeliveryOrder.txt";
         try (BufferedReader reader = new BufferedReader(new FileReader(ordersTxt))) {
             String line;
             while ((line = reader.readLine()) != null) {
